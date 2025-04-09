@@ -1,10 +1,11 @@
 import { Container, Stack, Box, Button } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import Basket from "./Basket";
+import { truncate } from "node:fs";
 
 
 export function OtherNavbar() {
-    const authMember = null;
+    const authMember = true;
     return <div className="other-navbar">
     <Container className="navbar-container">
         <Stack 
